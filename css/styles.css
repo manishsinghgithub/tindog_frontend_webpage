@@ -1,0 +1,166 @@
+#title
+{
+ background-color: #949cdf;
+ 
+}
+h1
+{
+    color: aliceblue;
+    font-family: "Montserrat" Bold;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat" Bold;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat" Bold;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.container-fluid
+{
+    padding: 3% 15%;
+}
+.navbar-brand
+{
+    font-family: "Ubuntu" ;
+    font-size: 2.5rem;
+    
+}
+.navbar-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+}
+.btn
+{
+    margin: 1% 1.5% ;
+}
+.title-image
+{
+    margin:7%;
+
+    width: 45%;
+    transform: rotate(25deg);
+    position: absolute;
+
+}
+
+@media (max-width: 1000px)
+{
+
+
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+#features{
+
+    padding: 5% 15%;
+    text-align: center;
+    background-color:#fff;
+   
+    position: relative;
+}
+
+.featrue-box
+{   
+    padding: 5%;
+}
+.featrue-box{
+    margin-right: 5%;
+}
+.fas-style
+{
+    margin-bottom: 5%;
+    color: #949cdf;
+}
+.fas-style:hover
+{
+    color: #6155a6;
+}
+
+
+/*testimonials section*/
+
+#testimonials
+{
+    
+    text-align: center;
+    background-color: #949cdf;
+    color: #fff;
+    
+}
+.testimonials-img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press
+{
+    background-color: #949cdf;
+    text-align: center;
+    padding-bottom: 10%;
+
+}
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item
+{
+    padding: 5% 15%;
+}
+#pricing
+{
+    padding: 5% 15%;
+    text-align: center;
+}
+.pr-col{
+   padding: 5% 2%;
+}
+
+#cta
+{
+    background-color: #949cdf;
+    text-align: center;
+}
+.action
+{
+    padding: 7% 15%;
+}
+
+.action-text
+{
+    padding: 5% 5%;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+#footer
+{
+    padding: 5% 15%;
+    text-align: center;
+}
+.socila-links
+{
+    padding: 2% 1%;
+}
